@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app       # : nginx 테스트 이미지 사용
-          image: nginx:1.27
+          image: nginx:1.26
           ports:
             - containerPort: 80
           resources:
