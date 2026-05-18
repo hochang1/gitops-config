@@ -15,7 +15,7 @@ labels:
 images:
 - name: gitops-app
   newName: hochang1/gitops-app
-  newTag: latest
+  newTag: sha-fcbc22e
 - name: nginx
   newName: your-dockerhub-username/gitops-app
   newTag: sha-4b9624c
