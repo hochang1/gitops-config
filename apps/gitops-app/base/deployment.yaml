@@ -35,4 +35,4 @@ spec:
               path: /api/health
               port: 8080
             initialDelaySeconds: 40
-            periodSecounds: 10
+            periodSeconds: 10
