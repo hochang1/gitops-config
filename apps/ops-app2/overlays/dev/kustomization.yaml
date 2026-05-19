@@ -9,7 +9,7 @@ namespace: ops-app2-dev
 images:
 - name: ops-app2
   newName: hochang1/ops-app2
-  newTag: sha-91f883e
+  newTag: sha-770dd0d
 
 patches:
 - patch: |-
