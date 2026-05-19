@@ -5,4 +5,3 @@ metadata:
 data:
   PROFILE: "default"
   OPS_APP2_URL: "http://ops-app2:8081"
-EOF
