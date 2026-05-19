@@ -8,7 +8,7 @@ namespace: ops-app2-dev
 
 images:
   - name: ops-app2
-    newName: nginx                  # 단계 검증용. [devops] 02에서 Spring Boot로 교체
+    newName: nginx # 단계 검증용. [devops] 02에서 Spring Boot로 교체
     newTag: "1.27-alpine"
 
 patches:
@@ -26,4 +26,3 @@ configMapGenerator:
     literals:
       - PROFILE=dev
       - OPS_APP2_URL=http://ops-app2.ops-app2-dev.svc.cluster.local:8081
-EOF
