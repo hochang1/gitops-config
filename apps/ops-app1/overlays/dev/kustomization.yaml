@@ -8,8 +8,6 @@ namespace: ops-app1-dev
 
 images:
 - name: ops-app1
-  newName: hochang1/ops-app1
-  newTag: sha-06d6f2b
 
 patches:
 - patch: |-
